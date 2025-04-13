@@ -2,6 +2,21 @@
 
 A robust URL shortening service built with Node.js, Express, and MongoDB.
 
+Live Demo: [URL Shortener](https://url-shortner-frontend-5zhn.vercel.app/)
+
+# Email and Password
+ email - intern@dacoid.com
+ password - Test123
+
+
+# URL Shortener API
+
+A robust URL shortening service built with Node.js, Express, and MongoDB.
+
+# Email and Password
+ email - intern@dacoid.com
+ password - Test123
+
 ## Features
 
 - URL Shortening with custom alias support
