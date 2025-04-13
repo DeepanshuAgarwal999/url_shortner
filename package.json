@@ -2,13 +2,16 @@
   "name": "url_shortner_backend",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "type": "module",
   "scripts": {
     "start": "node dist/index.js",
-    "build": "mkdir -p dist && babel src -d dist --copy-files",
+    "build": "babel src -d dist --copy-files",
     "dev": "nodemon src/index.js",
     "render-build": "npm install && npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "keywords": [],
   "author": "",
