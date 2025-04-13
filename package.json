@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "render-build": "npm install && npm run build"
+    "build": "echo 'No build step needed'"
   },
   "engines": {
     "node": ">=18.0.0"
