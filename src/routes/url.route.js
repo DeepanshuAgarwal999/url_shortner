@@ -4,7 +4,7 @@ import { Url } from "../models/Url.js";
 import { authenticateToken } from "../middleware/auth.js";
 import { urlCreationLimiter } from "../middleware/rateLimit.js";
 import { generateQRCode } from "../utils/qrcode.js";
-import generateShortCode from "../utils/shortcode.js";
+import generateShortCode from "../utils/shortCode.js";
 
 
 const router = Router();

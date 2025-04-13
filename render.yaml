@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: url-shortener-api
-    runtime: node
-    buildCommand: npm run build
-    startCommand: npm start
-    autoDeploy: true
